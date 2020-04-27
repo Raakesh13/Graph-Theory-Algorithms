@@ -1,8 +1,9 @@
 class graph:
-'''
-To insert vertices use object.insert(source, destination, weight). 
-To find the shortest path between vertices use object.dijkstra(source).
-'''
+    """
+    To create an object use 'object = graph()'.
+    To insert vertices use 'object.insertEdge(source, destination, weight)'. 
+    To find the shortest path between vertices use 'object.dijkstra(source)'.
+    """
     def __init__(self):
         self.adjList = {}
         self.adjMatrix = [[]]
